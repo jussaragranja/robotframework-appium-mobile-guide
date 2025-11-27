@@ -1,6 +1,6 @@
 # 📱 Guia de Iniciação para Testes Mobile com Robot Framework & Appium
 
-Este repositório foi criado para ajudar **iniciantes** a darem os primeiros passos no desenvolvimento de testes automatizados para **aplicativos mobile** utilizando **Robot Framework** e **Appium**.  
+Este repositório foi criado para ajudar com a configuração do ambiente para o desenvolvimento de testes automatizados de **aplicativos mobile** utilizando **Robot Framework** e **Appium**.  
 
 A ideia é ser um guia **bem detalhado e passo a passo**, sempre começando por:
 
@@ -8,7 +8,7 @@ A ideia é ser um guia **bem detalhado e passo a passo**, sempre começando por:
 2. **Instalar (se necessário)**  
 3. **Confirmar a instalação com um comando de verificação**
 
-Assim você evita instalar coisas em duplicidade e entende melhor o que está fazendo em cada etapa.  
+Assim evitamos duplicidades.
 
 ---
 
