@@ -2,7 +2,7 @@
 
 Este repositório foi criado para ajudar com a configuração do ambiente para o desenvolvimento de testes automatizados de **aplicativos mobile** utilizando **Robot Framework** e **Appium**.  
 
-A ideia é ser um guia **bem detalhado e passo a passo**, sempre começando por:
+Nesse guia vamos seguir dessa forma:
 
 1. **Verificar se a ferramenta já está instalada**  
 2. **Instalar (se necessário)**  
