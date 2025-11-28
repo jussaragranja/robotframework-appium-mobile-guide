@@ -67,9 +67,9 @@ python --version
 ```
 
 Você deve ver algo como:
-
+<div>
 <img src="https://i.ibb.co/gMdWSjNW/2.png" width="250"/>
-
+</div>
 ---
 
 ### Linux (Ubuntu/Debian)
@@ -88,9 +88,9 @@ python3 --version
 ```
 
 Você deve ver algo como:
-
+<div>
 <img src="https://i.ibb.co/TqkGxb1X/3.png" width="250"/>
-
+</div>
 ---
 
 ### macOS
@@ -116,9 +116,9 @@ python3 --version
 ```
 
 Você deve ver algo como:
-
+<div>
 <img src="https://i.ibb.co/rKzsr1Gb/1.png" width="250"/>
-
+</div>
 </details>
 
 ---
@@ -202,42 +202,6 @@ appium --version
 ```
 
 Você deve ver uma versão 2.x.
-
-</details>
-
----
-
-## 📚 AppiumLibrary
-
-A AppiumLibrary é a biblioteca que conecta o Robot Framework ao Appium.
-
-### 1. Verificar se a AppiumLibrary já está instalada
-
-```bash
-pip show robotframework-appiumlibrary
-```
-
-- Se aparecer informações do pacote, ela já está instalada.  
-- Se não, será necessário instalar.
-
-<details>
-<summary><strong>2. Instalar AppiumLibrary (se necessário)</strong></summary>
-
-```bash
-pip install robotframework-appiumlibrary
-```
-
-ou, se estiver usando `pip3`:
-
-```bash
-pip3 install robotframework-appiumlibrary
-```
-
-✅ Depois, você pode confirmar novamente com:
-
-```bash
-pip show robotframework-appiumlibrary
-```
 
 </details>
 
