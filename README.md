@@ -67,10 +67,7 @@ python --version
 ```
 
 Você deve ver algo como:
-
-```text
-Python 3.x.x
-```
+<img src="https://ibb.co/99h4b864" width="60">
 
 ---
 
@@ -88,6 +85,9 @@ sudo apt install python3 python3-pip
 ```bash
 python3 --version
 ```
+
+Você deve ver algo como:
+<img src="https://ibb.co/2Yyr1sS2" width="60">
 
 ---
 
@@ -112,6 +112,9 @@ Depois:
 ```bash
 python3 --version
 ```
+
+Você deve ver algo como:
+<img src="https://ibb.co/BHQNMSV4" width="60">
 
 </details>
 
