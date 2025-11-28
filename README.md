@@ -67,7 +67,7 @@ python --version
 ```
 
 Você deve ver algo como:
-<img src="https://ibb.co/99h4b864" width="60">
+<img src="https://i.ibb.co/gMdWSjNW/2.png" width="60">
 
 ---
 
@@ -87,7 +87,7 @@ python3 --version
 ```
 
 Você deve ver algo como:
-<img src="https://ibb.co/2Yyr1sS2" width="60">
+<img src="https://i.ibb.co/TqkGxb1X/3.png" width="60">
 
 ---
 
