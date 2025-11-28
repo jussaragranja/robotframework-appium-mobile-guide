@@ -67,7 +67,8 @@ python --version
 ```
 
 Você deve ver algo como:
-<img src="https://i.ibb.co/gMdWSjNW/2.png" width="60">
+
+<img src="https://i.ibb.co/gMdWSjNW/2.png" width="250"/>
 
 ---
 
@@ -87,7 +88,8 @@ python3 --version
 ```
 
 Você deve ver algo como:
-<img src="https://i.ibb.co/TqkGxb1X/3.png" width="60">
+
+<img src="https://i.ibb.co/TqkGxb1X/3.png" width="250"/>
 
 ---
 
@@ -114,7 +116,8 @@ python3 --version
 ```
 
 Você deve ver algo como:
-<img src="https://ibb.co/BHQNMSV4" width="60">
+
+<img src="https://i.ibb.co/rKzsr1Gb/1.png" width="250"/>
 
 </details>
 
