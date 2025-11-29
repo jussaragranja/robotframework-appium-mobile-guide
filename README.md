@@ -226,10 +226,15 @@ O JDK é necessário para ferramentas do Android SDK e, muitas vezes, para o fun
 ### 1. Verificar se o JDK está instalado
 
 ```bash
-java -version
+java --version
 ```
 
-- Se aparecer algo como `openjdk version "17.x.x"` ou `Java(TM) SE Runtime Environment`, você já tem JDK instalado.  
+- Se aparecer algo como `openjdk version "17.x.x"` ou `Java(TM) SE Runtime Environment`, você já tem JDK instalado.
+
+<div>
+<img src="https://i.ibb.co/NgqhJ38Z/Captura-de-Tela-2025-11-29-a-s-12-12-23.png" width="250"/>
+</div>
+
 - Caso contrário, será necessário instalar.
 
 <details>
@@ -269,7 +274,7 @@ O Android Studio facilita a instalação e gestão do SDK, emuladores e ferramen
    - **Android SDK**
    - **Android SDK Platform-Tools**
    - **Android SDK Build-Tools**
-   - **Android Virtual Device (AVD)** (opcional, mas recomendado)
+   - **Android Virtual Device (AVD)**
 
 ### 3. Configurar variáveis de ambiente do SDK
 
@@ -290,6 +295,10 @@ adb version
 ```
 
 Se o comando funcionar, o SDK está acessível pelo PATH.
+
+<div>
+<img src="https://i.ibb.co/LDmGvKfL/Captura-de-Tela-2025-11-29-a-s-12-14-55.png" width="250"/>
+</div>
 
 ---
 
@@ -413,10 +422,50 @@ O Appium Inspector é uma ferramenta gráfica para inspecionar elementos da inte
 ### 1. Verificar se você já tem o Appium Inspector
 
 - Veja se existe um aplicativo chamado **Appium Inspector** instalado no seu sistema.  
-- Se não tiver, faça o download.
+- Se não tiver, faça o download ou use a versão plugin via navegador.
 
 <details>
 <summary><strong>2. Instalar Appium Inspector (se necessário)</strong></summary>
+
+### 1. Plugin:
+
+1. Se você já tem o Appium 2.x instalado (geralmente via npm), use o terminal para instalar o plugin do Inspector.
+
+```bash
+appium plugin install --source=npm appium-inspector-plugin
+```
+
+<div>
+<img src="https://i.ibb.co/QFm9pCrz/Captura-de-Tela-2025-11-29-a-s-12-20-10.png" width="250"/>
+</div>
+
+2. Iniciar o Servidor Appium com o Plugin Ativado: Para que o Appium Inspector funcione no navegador, você precisa iniciar o servidor Appium e especificar que ele deve usar o plugin e permitir requisições de origens diferentes (CORS):
+
+```bash
+appium --use-plugins=inspector --allow-cors
+```
+O servidor Appium geralmente roda na porta padrão 4723.
+
+<div>
+<img src="https://i.ibb.co/gZN1Tw8g/Captura-de-Tela-2025-11-29-a-s-12-23-48.png" width="250"/>
+</div>
+
+
+🌐 Acesso e Uso via Navegador:
+
+Acesse a URL do Plugin (Localmente)
+Com o servidor Appium rodando conforme a etapa 2 da instalação do plugin, abra o seguinte endereço no seu navegador:
+
+```
+http://localhost:4723/inspector
+```
+
+<div>
+<img src="https://i.ibb.co/N23F8V2j/Captura-de-Tela-2025-11-29-a-s-12-24-07.png" width="250"/>
+</div>
+
+
+### 2. Aplicativo Appium Inspector:
 
 1. Acesse: https://github.com/appium/appium-inspector/releases  
 2. Baixe o instalador de acordo com seu sistema (Windows, macOS, AppImage no Linux).  
