@@ -450,7 +450,7 @@ appium plugin install --source=npm appium-inspector-plugin
 ```
 
 <div>
-<img src="https://i.ibb.co/QFm9pCrz/Captura-de-Tela-2025-11-29-a-s-12-20-10.png" width="250"/>
+<img src="https://i.ibb.co/QFm9pCrz/Captura-de-Tela-2025-11-29-a-s-12-20-10.png" width="500"/>
 </div>
 
 2. Iniciar o Servidor Appium com o Plugin Ativado: Para que o Appium Inspector funcione no navegador, você precisa iniciar o servidor Appium e especificar que ele deve usar o plugin e permitir requisições de origens diferentes (CORS):
@@ -461,11 +461,11 @@ appium --use-plugins=inspector --allow-cors
 O servidor Appium geralmente roda na porta padrão 4723.
 
 <div>
-<img src="https://i.ibb.co/gZN1Tw8g/Captura-de-Tela-2025-11-29-a-s-12-23-48.png" width="250"/>
+<img src="https://i.ibb.co/gZN1Tw8g/Captura-de-Tela-2025-11-29-a-s-12-23-48.png" width="450"/>
 </div>
 
 
-🌐 Acesso e Uso via Navegador:
+### 🌐 Acesso e Uso via Navegador:
 
 Acesse a URL do Plugin (Localmente)
 Com o servidor Appium rodando conforme a etapa 2 da instalação do plugin, abra o seguinte endereço no seu navegador:
@@ -475,7 +475,7 @@ http://localhost:4723/inspector
 ```
 
 <div>
-<img src="https://i.ibb.co/N23F8V2j/Captura-de-Tela-2025-11-29-a-s-12-24-07.png" width="250"/>
+<img src="https://i.ibb.co/N23F8V2j/Captura-de-Tela-2025-11-29-a-s-12-24-07.png" width="450"/>
 </div>
 
 
