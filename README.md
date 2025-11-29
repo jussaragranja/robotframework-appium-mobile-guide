@@ -266,7 +266,8 @@ O Android Studio facilita a instalação e gestão do SDK, emuladores e ferramen
 - No Windows/macOS, tente abrir o **Android Studio** pelo menu de aplicativos.  
 - Se já estiver instalado, você pode pular o download e ir direto conferir o SDK e as ferramentas.
 
-### 2. Instalar Android Studio (se necessário)
+<details>
+<summary><strong>2. Instalar Android Studio (se necessário)</strong></summary>
 
 1. Acesse: https://developer.android.com/studio  
 2. Baixe o instalador para o seu sistema.  
@@ -299,6 +300,8 @@ Se o comando funcionar, o SDK está acessível pelo PATH.
 <div>
 <img src="https://i.ibb.co/LDmGvKfL/Captura-de-Tela-2025-11-29-a-s-12-14-55.png" width="250"/>
 </div>
+
+</details>
 
 ---
 
@@ -339,7 +342,8 @@ para confirmar que ele foi reconhecido.
 
 </details>
 
-### 3. Ativar Depuração USB em dispositivo físico
+<details>
+<summary><strong>3. Ativar Depuração USB em dispositivo físico</strong></summary>
 
 No Android:
 
@@ -349,6 +353,8 @@ No Android:
 4. Ative **Depuração USB**
 
 Conecte o dispositivo ao computador e confirme a permissão de depuração na tela do aparelho.
+
+</details>
 
 ---
 
@@ -367,7 +373,8 @@ adb devices
 - Se o dispositivo aparecer com status `device`, os drivers estão ok.  
 - Se não aparecer, ou aparecer como `unauthorized` ou `offline`, pode ser necessário ajustar drivers ou autorizações.
 
-### 2. Instalar drivers (se necessário)
+<details>
+<summary><strong>2. Instalar drivers (se necessário)</strong></summary>
 
 - Use os **Google USB Drivers** (para dispositivos Pixel e alguns outros modelos)  
 - Para outras marcas (Samsung, Motorola, Xiaomi, etc.), consulte o site oficial do fabricante e baixe o driver USB correspondente.
@@ -377,6 +384,7 @@ Depois de instalar os drivers, desconecte e reconecte o dispositivo e execute no
 ```bash
 adb devices
 ```
+</details>
 
 ---
 
@@ -395,13 +403,17 @@ code --version
 - Se aparecer uma versão, o comando está configurado e o VSCode está instalado.  
 - Se não, ou se o comando não for reconhecido, instale o VSCode.
 
-### 2. Instalar VSCode (se necessário)
+<details>
+<summary><strong>2. Instalar VSCode (se necessário)</strong></summary>
 
 Baixe em: https://code.visualstudio.com/
 
 Siga o instalador para o seu sistema operacional.
 
-### 3. Extensões recomendadas para iniciantes
+</details>
+
+<details>
+<summary><strong>3. Extensões recomendadas</strong></summary>
 
 No próprio VSCode, instale:
 
@@ -412,6 +424,8 @@ Essas extensões ajudam com:
 - Syntax highlight  
 - Autocomplete  
 - Integração com Python  
+
+</details>
 
 ---
 
