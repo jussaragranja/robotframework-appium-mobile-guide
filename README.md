@@ -1,6 +1,6 @@
 # 📱 Guia de Iniciação para Testes Mobile com Robot Framework & Appium
 
-Este repositório foi criado para ajudar com a configuração do ambiente para o desenvolvimento de testes automatizados de **aplicativos mobile** utilizando **Robot Framework** e **Appium**.  
+Este guia foi criado para ajudar com a configuração do ambiente para o desenvolvimento de testes automatizados de **aplicativos mobile** utilizando **Robot Framework** e **Appium**.  
 
 Nesse guia vamos seguir dessa forma:
 
@@ -24,6 +24,7 @@ Assim evitamos duplicidades.
 8. [VSCode](#-vscode-visual-studio-code)
 9. [Appium Inspector](#-appium-inspector)
 10. [Dúvidas Frequentes](#-dúvidas-frequentes)
+10. [Conclusão](#-conclusao)
 
 ---
 
@@ -45,8 +46,21 @@ ou, em alguns sistemas:
 python3 --version
 ```
 
-- Se aparecer uma versão (por exemplo, `Python 3.10.12`), você já tem Python instalado.  
-- Se der erro de comando não encontrado, siga a etapa de instalação na seção abaixo.
+- Se aparecer uma versão (por exemplo, `Python 3.10.12`), você já tem Python instalado.
+
+✔️ Saída esperada:
+```
+Python 3.x.x
+```
+<div>
+<img src="https://ibb.co/5grLz5Zw" width="250"/>
+</div>
+
+
+❌ Se não estiver instalado o retorno será parecido com:
+```
+command not found
+```
 
 <details>
 <summary><strong>2. Instalar Python (se necessário)</strong></summary>
@@ -87,7 +101,7 @@ python3 --version
 
 Você deve ver algo como:
 <div>
-<img src="https://i.ibb.co/TqkGxb1X/3.png" width="250"/>
+<img src="https://ibb.co/5grLz5Zw" width="250"/>
 </div>
 ---
 
@@ -135,12 +149,18 @@ robot --version
 <div>
 <img src="https://i.ibb.co/3mL1FsW1/Captura-de-Tela-2025-11-29-a-s-12-03-54.png" width="250"/>
 </div>
+
+❌ Se não tiver instalado o retorno será algo como:
+```
+command not found
+```
+
 - Se o comando não for encontrado, instale com `pip`.
 
 <details>
 <summary><strong>2. Instalar Robot Framework (se necessário)</strong></summary>
 
-Usando `pip` (recomendado ter um ambiente virtual, mas aqui vamos manter simples para iniciantes):
+Usando `pip` (recomendado ter um ambiente virtual, mas aqui vamos manter simples):
 
 ```bash
 pip install robotframework
@@ -185,6 +205,8 @@ appium --version
 
 <details>
 <summary><strong>2. Instalar ou atualizar Appium (se necessário)</strong></summary>
+
+⚠️ O Appium depende do Node.js.
 
 O Appium 2.x é instalado via **Node.js (npm)**.
 
@@ -245,6 +267,12 @@ ou https://adoptium.net/temurin/releases
 
 Após a instalação, configure a variável de ambiente `JAVA_HOME` apontando para a pasta de instalação do JDK.
 
+Exemplos:
+
+- Windows: `C:\Program Files\Eclipse Adoptium\jdk-17`  
+- macOS: `/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home`  
+- Linux: `/usr/lib/jvm/temurin-17-jdk`  
+
 ✅ Depois, verifique novamente:
 
 ```bash
@@ -277,7 +305,7 @@ O Android Studio facilita a instalação e gestão do SDK, emuladores e ferramen
 
 ### 3. Configurar variáveis de ambiente do SDK
 
-- Crie a variável `ANDROID_HOME` apontando para a pasta do SDK.  
+- Crie a variável `ANDROID_HOME` apontando para a pasta do SDK.
   Exemplos comuns de caminho:
   - Windows: `C:\Users\SEU_USUARIO\AppData\Local\Android\Sdk`
   - macOS: `~/Library/Android/sdk`
@@ -298,6 +326,48 @@ Se o comando funcionar, o SDK está acessível pelo PATH.
 <div>
 <img src="https://i.ibb.co/LDmGvKfL/Captura-de-Tela-2025-11-29-a-s-12-14-55.png" width="250"/>
 </div>
+
+</details>
+
+<details>
+<summary><strong>Instalar ADB</strong></summary>
+
+<details>
+<summary><strong>Windows</strong></summary>
+
+1. Baixe platform-tools:  
+https://developer.android.com/studio/releases/platform-tools  
+2. Extraia  
+3. Adicione ao PATH  
+
+🔎 Verifique:
+```bash
+adb version
+```
+</details>
+
+---
+
+<details>
+<summary><strong>Linux / macOS</strong></summary>
+
+```bash
+wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip
+unzip platform-tools-latest-linux.zip
+```
+
+Adicionar ao PATH:
+
+Lembre-se de alterar o caminho.
+```bash
+export PATH=$PATH:/caminho/platform-tools
+```
+
+🔎 Verificar:
+```bash
+adb version
+```
+</details>
 
 </details>
 
@@ -433,7 +503,7 @@ O Appium Inspector é uma ferramenta gráfica para inspecionar elementos da inte
 
 ### 1. Verificar se você já tem o Appium Inspector
 
-- Veja se existe um aplicativo chamado **Appium Inspector** instalado no seu sistema.  
+- Veja se existe um aplicativo chamado **Appium Inspector** instalado no seu sistema.
 - Se não tiver, faça o download ou use a versão plugin via navegador.
 
 <details>
@@ -496,4 +566,12 @@ Depois, abra o Appium Inspector e configure a conexão com seu servidor Appium (
 - Documentação oficial do **Appium**:  
   https://appium.io/
 
-Com todos esses passos concluídos, você terá um ambiente preparado para iniciar seus **primeiros testes mobile automatizados** com **Robot Framework + Appium** 🚀  
+# 🎉 Conclusão
+
+Seu ambiente de automação mobile agora está pronto para:
+
+✔️ Python
+✔️ Robot Framework
+✔️ Appium
+
+Agora é só começar a escrever seus testes 🚀💜
