@@ -101,7 +101,7 @@ python3 --version
 
 Você deve ver algo como:
 <div>
-<img src="https://ibb.co/5grLz5Zw" width="250"/>
+<img src="https://i.ibb.co/tTqDNbRF/Screenshot-from-2025-11-29-15-08-26.png" width="350"/>
 </div>
 ---
 
