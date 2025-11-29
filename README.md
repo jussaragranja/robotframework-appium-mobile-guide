@@ -17,15 +17,13 @@ Assim evitamos duplicidades.
 1. [Python](#-python)
 2. [Robot Framework](#-robot-framework)
 3. [Appium (>=2.x)](#-appium-2x)
-4. [ADB (Android Debug Bridge)](#-adb-android-debug-bridge)
-5. [AppiumLibrary](#-appiumlibrary)
-6. [JDK (Java Development Kit)](#-jdk-java-development-kit)
-7. [Android Studio & Android SDK](#-android-studio--android-sdk)
-8. [Emulador/Dispositivo Android](#-emuladordispositivo-android)
-9. [Drivers Android](#-drivers-android)
-10. [VSCode](#-vscode-visual-studio-code)
-11. [Appium Inspector](#-appium-inspector)
-12. [Dúvidas Frequentes](#-dúvidas-frequentes)
+4. [JDK (Java Development Kit)](#-jdk-java-development-kit)
+5. [Android Studio & Android SDK](#-android-studio--android-sdk)
+6. [Emulador/Dispositivo Android](#-emuladordispositivo-android)
+7. [Drivers Android](#-drivers-android)
+8. [VSCode](#-vscode-visual-studio-code)
+9. [Appium Inspector](#-appium-inspector)
+10. [Dúvidas Frequentes](#-dúvidas-frequentes)
 
 ---
 
