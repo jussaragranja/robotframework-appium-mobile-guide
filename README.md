@@ -53,7 +53,7 @@ python3 --version
 Python 3.x.x
 ```
 <div>
-<img src="https://ibb.co/5grLz5Zw" width="250"/>
+<img src="https://i.ibb.co/tTqDNbRF/Screenshot-from-2025-11-29-15-08-26.png" width="250"/>
 </div>
 
 
