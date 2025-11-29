@@ -65,8 +65,7 @@ command not found
 <details>
 <summary><strong>2. Instalar Python (se necessário)</strong></summary>
 
-<details>
-<summary><strong>- Windows </strong></summary>
+### Windows
 
 1. Acesse: https://www.python.org/downloads/windows/  
 2. Baixe a versão recomendada (Python 3.x).  
@@ -83,12 +82,9 @@ Você deve ver algo como:
 <div>
 <img src="https://i.ibb.co/gMdWSjNW/2.png" width="250"/>
 </div>
-
-</details>
 ---
 
-<details>
-<summary><strong>- Linux (Ubuntu/Debian) </strong></summary>
+### Linux (Ubuntu/Debian)
 
 No terminal:
 
@@ -107,12 +103,9 @@ Você deve ver algo como:
 <div>
 <img src="https://i.ibb.co/tTqDNbRF/Screenshot-from-2025-11-29-15-08-26.png" width="350"/>
 </div>
-
-</details>
 ---
 
-<details>
-<summary><strong>- macOS </strong></summary>
+### macOS
 
 Se usar Homebrew, no Terminal:
 
@@ -138,8 +131,6 @@ Você deve ver algo como:
 <div>
 <img src="https://i.ibb.co/rKzsr1Gb/1.png" width="250"/>
 </div>
-</details>
-
 </details>
 
 ---
