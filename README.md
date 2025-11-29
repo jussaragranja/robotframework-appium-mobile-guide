@@ -133,7 +133,10 @@ O Robot Framework é o framework que vamos usar para escrever os testes.
 robot --version
 ```
 
-- Se aparecer uma versão (ex.: `Robot Framework 7.x.x`), ele já está instalado.  
+- Se aparecer uma versão (ex.: `Robot Framework 7.x.x`), ele já está instalado.
+<div>
+<img src="https://i.ibb.co/3mL1FsW1/Captura-de-Tela-2025-11-29-a-s-12-03-54.png" width="250"/>
+</div>
 - Se o comando não for encontrado, instale com `pip`.
 
 <details>
@@ -158,6 +161,9 @@ robot --version
 ```
 
 Você deve ver a versão do Robot Framework instalada.
+<div>
+<img src="https://i.ibb.co/3mL1FsW1/Captura-de-Tela-2025-11-29-a-s-12-03-54.png" width="250"/>
+</div>
 
 </details>
 
@@ -173,7 +179,10 @@ O Appium é o servidor que permite automatizar aplicativos mobile.
 appium --version
 ```
 
-- Se aparecer uma versão 2.x (por exemplo, `2.5.0`), você já está com uma versão compatível.  
+- Se aparecer uma versão 2.x (por exemplo, `2.5.0`), você já está com uma versão compatível.
+<div>
+<img src="https://i.ibb.co/MxXdHM98/Captura-de-Tela-2025-11-29-a-s-12-05-57.png" width="250"/>
+</div>
 - Se não tiver Appium, ou se a versão for `1.x`, siga a instalação/atualização.
 
 <details>
@@ -186,6 +195,10 @@ O Appium 2.x é instalado via **Node.js (npm)**.
 ```bash
 node -v
 ```
+Você deve ver uma versão:
+<div>
+<img src="https://i.ibb.co/ZzdwnP3s/Captura-de-Tela-2025-11-29-a-s-12-08-15.png" width="250"/>
+</div>
 
 - Se NÃO tiver, baixe em: https://nodejs.org/ (recomenda-se a versão LTS).
 
@@ -200,7 +213,6 @@ npm install -g appium
 ```bash
 appium --version
 ```
-
 Você deve ver uma versão 2.x.
 
 </details>
