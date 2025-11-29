@@ -232,7 +232,7 @@ java --version
 - Se aparecer algo como `openjdk version "17.x.x"` ou `Java(TM) SE Runtime Environment`, você já tem JDK instalado.
 
 <div>
-<img src="https://i.ibb.co/NgqhJ38Z/Captura-de-Tela-2025-11-29-a-s-12-12-23.png" width="450"/>
+<img src="https://i.ibb.co/NgqhJ38Z/Captura-de-Tela-2025-11-29-a-s-12-12-23.png" width="500"/>
 </div>
 
 - Caso contrário, será necessário instalar.
