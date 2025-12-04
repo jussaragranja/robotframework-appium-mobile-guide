@@ -462,7 +462,7 @@ appium driver list --installed
 
 Você deve ver a lista de drivers instalados, parecida com a imagem abaixo:
 <div>
-<img src="https://i.ibb.co/5XQ3BQ6p/Captura-de-Tela-2025-12-04-a-s-15-19-35.png" width="500"/>
+<img src="https://i.ibb.co/5XQ3BQ6p/Captura-de-Tela-2025-12-04-a-s-15-19-35.png" width="400"/>
 </div>
 
 Caso não encontre UiAutomator2 e o XCUITest na lista, siga o passo abaixo:
@@ -475,6 +475,7 @@ No terminal/cmd/powershell:
 ```bash
 appium driver install uiautomator2
 ```
+e também:
 ```bash
 appium driver install xcuitest
 ```
@@ -485,11 +486,11 @@ appium driver list --installed
 ```
 
 <div>
-<img src="https://i.ibb.co/5XQ3BQ6p/Captura-de-Tela-2025-12-04-a-s-15-19-35.png" width="500"/>
+<img src="https://i.ibb.co/5XQ3BQ6p/Captura-de-Tela-2025-12-04-a-s-15-19-35.png" width="400"/>
 </div>
 
 </details>
----
+
 
 ## 📝 VSCode (Visual Studio Code)
 
