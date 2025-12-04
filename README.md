@@ -462,7 +462,7 @@ appium driver list --installed
 
 Você deve ver a lista de drivers instalados, parecida com a imagem abaixo:
 <div>
-<img src="https://i.ibb.co/5XQ3BQ6p/Captura-de-Tela-2025-12-04-a-s-15-19-35.png" width="400"/>
+<img src="https://i.ibb.co/5XQ3BQ6p/Captura-de-Tela-2025-12-04-a-s-15-19-35.png" width="450"/>
 </div>
 
 Caso não encontre UiAutomator2 e o XCUITest na lista, siga o passo abaixo:
@@ -486,7 +486,7 @@ appium driver list --installed
 ```
 
 <div>
-<img src="https://i.ibb.co/5XQ3BQ6p/Captura-de-Tela-2025-12-04-a-s-15-19-35.png" width="400"/>
+<img src="https://i.ibb.co/5XQ3BQ6p/Captura-de-Tela-2025-12-04-a-s-15-19-35.png" width="450"/>
 </div>
 
 </details>
@@ -592,6 +592,37 @@ http://localhost:4723/inspector
 Depois, abra o Appium Inspector e configure a conexão com seu servidor Appium (URL e capabilities).
 
 </details>
+
+## Conectar device ao Appium Inspector
+
+Agora que você já tem o servidor appium instalado, um emulador criado ou um device fisico conectado, e os drivers UiAutomator2 (Android) e o XCUITest (iOS), vamos configurar o appium inspector para se conectar ao seu dispositivo.
+
+### 1. Buscar nome do dispositivo criado
+
+Para emulador: Inicie o emulador pelo android studio.
+Para fisico: Com o celular conectado e a Depuração USB ativada.
+Depois:
+digite o comando no terminal
+
+```bash
+adb devices
+```
+
+Seu device será listado, como o exemplo abaixo:
+
+<div>
+<img src="https://i.ibb.co/yJBmKjw/Captura-de-Tela-2025-12-04-a-s-15-35-39.png" width="450"/>
+</div>
+
+Com o seu servidor appium ativo, no seu appium inspector configure as capabilites dessa forma:
+
+<div>
+<img src="https://i.ibb.co/ccPHRz5W/Captura-de-Tela-2025-12-04-a-s-15-40-05.png" width="300"/>
+</div>
+
+Ao clicar em Iniciar, você terá seu dispositivo conectado ao appium inspector para fazer o mapeamento de elementos que desejar!
+
+
 
 ---
 
