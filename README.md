@@ -428,7 +428,7 @@ Conecte o dispositivo ao computador e confirme a permissão de depuração na te
 
 ## 🔌 Drivers Android
 
-Para que o computador reconheça um dispositivo físico Android (principalmente no Windows), é importante ter os drivers corretos.
+Para que o computador reconheça um dispositivo físico Android (principalmente no Windows), é importante ter os drivers corretos. Além disso será necessario os drivers UiAutomator2 (Android) e o XCUITest (iOS).
 
 ### 1. Verificar se o dispositivo é reconhecido via ADB
 
@@ -454,6 +454,41 @@ adb devices
 ```
 </details>
 
+### 2. Verificar e instalar drivers UiAutomator2 (Android) e o XCUITest (iOS).
+
+```bash
+appium driver list --installed
+```
+
+Você deve ver a lista de drivers instalados, parecida com a imagem abaixo:
+<div>
+<img src="https://i.ibb.co/5XQ3BQ6p/Captura-de-Tela-2025-12-04-a-s-15-19-35.png" width="500"/>
+</div>
+
+Caso não encontre UiAutomator2 e o XCUITest na lista, siga o passo abaixo:
+
+<details>
+<summary><strong>2. Instalar drivers UiAutomator2 (Android) e o XCUITest (iOS) - se necessário</strong></summary>
+
+No terminal/cmd/powershell:
+
+```bash
+appium driver install uiautomator2
+```
+```bash
+appium driver install xcuitest
+```
+
+Verificar instalação bem sucedida:
+```bash
+appium driver list --installed
+```
+
+<div>
+<img src="https://i.ibb.co/5XQ3BQ6p/Captura-de-Tela-2025-12-04-a-s-15-19-35.png" width="500"/>
+</div>
+
+</details>
 ---
 
 ## 📝 VSCode (Visual Studio Code)
